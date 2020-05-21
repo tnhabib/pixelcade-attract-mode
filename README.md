@@ -1,4 +1,4 @@
-# PixelCade plugin for AttractMode front end
+# Pixelcade plugin for AttractMode front end
 
 ## DESCRIPTION:
 
