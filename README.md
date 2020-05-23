@@ -14,7 +14,7 @@ Pixelcade plugin is for the [AttractMode](http://attractmode.org) front end that
 You may need to change file paths and scripts as necessary as each platform (windows, mac, linux) has a slightly different directory structure.
 This project was developed on a Ubuntu platfrom, so it probably will work on a Raspberry Pi.
 
-## Install PLugin
+## Install Plugin
 
 * Copy Pixelcade folder to `$HOME/.attract/plugins/`
 
