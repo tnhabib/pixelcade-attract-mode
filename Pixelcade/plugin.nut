@@ -2,10 +2,6 @@
 
 // Layout User Options
 class UserConfig </ help="Plugin that updates the Pixelcade marquee when starting and exiting a game." /> {
-	</ label="Script path",
-		help="Path for pixelcade helper scripts",
-		order=1 />
-	helperScriptPath="";
 	</ label="Front End Text",
 		help="Text to display while browsing (before launching)",
 		order=1 />
@@ -22,7 +18,7 @@ class PixelCade {
 	
 	constructor() {
 		user_config = fe.get_config();
-		script_path = user_config["helperScriptPath"];
+		script_path =  fe.script_dir + "/scripts";
 		frontEndTxt = user_config["frontEndTxt"];
 		fe.add_transition_callback(this, "transitions");
 	}
@@ -31,6 +27,7 @@ class PixelCade {
 	        local game_title = fe.game_info(Info.Title,0);
 			local emulator_str = fe.game_info(Info.Emulator, 0);
 			local rom_name = fe.game_info(Info.Name, 0);
+
         	switch(ttype) {
 			case Transition.ToGame:
 

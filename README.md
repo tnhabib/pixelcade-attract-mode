@@ -2,7 +2,7 @@
 
 ## DESCRIPTION:
 
-Pixelcade plugin is for the [AttractMode](http://attractmode.org) front end that communicates with the [Pixelcade Marquee](http://pixelcade.org). It will fade the screen when transitioning to and from a game.
+Pixelcade plugin is for the [AttractMode](http://attractmode.org) front end that communicates with the [Pixelcade Marquee](http://pixelcade.org). It will update the marquee when transitioning to and from a game.
 
 
 ## Prerequisites
@@ -14,10 +14,10 @@ Pixelcade plugin is for the [AttractMode](http://attractmode.org) front end that
 You may need to change file paths and scripts as necessary as each platform (windows, mac, linux) has a slightly different directory structure.
 This project was developed on a Ubuntu platfrom, so it probably will work on a Raspberry Pi.
 
-## Install Files
+## Install PLugin
 
-1. Copy Pixelcade folder to `$HOME/.attract/plugins/`
-2. Copy the files in the script folder to some path and remember it, as you will need it for plugin configuration
+* Copy Pixelcade folder to `$HOME/.attract/plugins/`
+
 
 ## Usage
 
