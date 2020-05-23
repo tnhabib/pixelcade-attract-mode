@@ -21,7 +21,7 @@ This project was developed on a Ubuntu platfrom, so it probably will work on a R
 
 ## Usage
 
-You can enable the Pixelcade plugin by running Attract Mode and pressing the tab key to enter the configure menu. Navigate to `Plug-ins -> Pixelcade -> Enabled`. Enable the plugin and set the **Front End Text** to the text you want to scroll while you are not playing a game. (e.g "Tony's Arcade")
+You can enable the Pixelcade plugin by running Attract Mode and pressing the tab key to enter the configure menu. Navigate to `Plug-ins -> Pixelcade -> Enabled`. 
 
 ## Notes
 
